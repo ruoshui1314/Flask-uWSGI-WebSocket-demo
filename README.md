@@ -1,8 +1,7 @@
 Flask-uWSGI-WebSocket-demo
 =====================
 Demo provide you a websocket server based on
-`flask-uwsgi-websocket
-<https://github.com/zeekay/flask-uwsgi-websocket/>`_.
+[flask-uwsgi-websocket](https://github.com/zeekay/flask-uwsgi-websocket/).
 It supports pubsub by redis instead of subscribing channel peer connection by creating asyncio task.
 For same channels, SUBSCRIBE module will add it to set and subscribe once to redis.
 Chat server will provide interface for different functions (only chat supplied currently).
